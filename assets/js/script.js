@@ -66,18 +66,13 @@ $(document).ready(function() {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: [
-    "frontend development",
-    "backend development",
-    "web designing",
-    "android development",
-    "web development",
-  ],
+  strings: ["Frontend Development", "Cyber Security", "Python", "Reading"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
   backDelay: 500,
 });
+s;
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
